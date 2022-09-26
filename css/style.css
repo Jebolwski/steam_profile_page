@@ -1,0 +1,214 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  overflow-x: hidden;
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.large_header {
+  background-color: #171a21;
+  height: 104px;
+  width: 100%;
+  color: white;
+}
+
+.large_header .center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.large_header p {
+  padding: 0 8px;
+  font-size: 14px;
+  color: #b8b6b4;
+}
+
+.header_installsteam_btn_content {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.header_installsteam_btn_content div {
+  background-color: rgb(92 126 16);
+  padding: 3px 10px;
+  font-size: 11px;
+  color: #b8b6b4;
+}
+
+.header_installsteam_btn_content div p {
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+#global_action_menu {
+  position: relative;
+}
+
+.popup_block_new {
+  background-color: #171a21;
+  border: 1px solid #171a21;
+  box-shadow: 0 0 12px #000000;
+  padding: 14px;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 320px;
+}
+
+.popup_block_new a {
+  color: #b8b6b4;
+  text-decoration: none;
+  font-size: 14px;
+  height: 100px !important;
+}
+
+.rest_profile {
+  background-image: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1263950/9aea5f2f726e050d2df2f0eb531d90b497790c46.jpg");
+  background-size: cover;
+}
+
+.rest_profile__top {
+  padding: 30px;
+  width: 980px;
+  background: rgb(24 24 24 / 93%);
+  margin: 0 auto;
+}
+
+.rest_profile__profile_image {
+  border: 2px ridge gray;
+  width: 164px;
+  height: 164px;
+}
+
+.level_button {
+  color: white;
+  border: 2px solid #c02942;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.xp_box {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 8px;
+}

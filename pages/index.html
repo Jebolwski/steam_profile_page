@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../assets/bootstrap-5.2.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../assets/fontawesome-6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="large_header justify-content-center">
+      <div class="center">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex align-items-center" style="height: 104px">
+              <img
+                src="https://community.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+                width="176"
+                height="44"
+                class="me-4"
+              />
+              <p>MAĞAZA</p>
+              <p>TOPLULUK</p>
+              <p>HAKKINDA</p>
+              <p>DESTEK</p>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div id="global_action_menu">
+              <div
+                class="header_installsteam_btn header_installsteam_btn_green"
+              >
+                <div
+                  class="header_installsteam_btn_content"
+                  style="text-decoration: none"
+                >
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-download fa-lg text-white me-1"></i>
+                    <p style="text-decoration: none !important">
+                      Steam'i Yükleyin
+                    </p>
+                  </div>
+                  <p style="font-size: 12px">
+                    giriş &nbsp;|&nbsp; dil
+                    <i
+                      class="fa-solid fa-caret-down ms-1 drop_down"
+                      onclick="laguages_show()"
+                    ></i>
+                  </p>
+                </div>
+              </div>
+              <div class="popup_block_new" id="language_dropdown">
+                <div class="popup_body popup_menu">
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=schinese"
+                    onclick="ChangeLanguage( 'schinese' ); return false;"
+                    >简体中文 (Basitleştirilmiş Çince)</a
+                  >
+                  <br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=tchinese"
+                    onclick="ChangeLanguage( 'tchinese' ); return false;"
+                    >繁體中文 (Geleneksel Çince)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=japanese"
+                    onclick="ChangeLanguage( 'japanese' ); return false;"
+                    >日本語 (Japonca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=koreana"
+                    onclick="ChangeLanguage( 'koreana' ); return false;"
+                    >한국어 (Korece)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=thai"
+                    onclick="ChangeLanguage( 'thai' ); return false;"
+                    >ไทย (Tayca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=bulgarian"
+                    onclick="ChangeLanguage( 'bulgarian' ); return false;"
+                    >Български (Bulgarca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=czech"
+                    onclick="ChangeLanguage( 'czech' ); return false;"
+                    >Čeština (Çekçe)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=danish"
+                    onclick="ChangeLanguage( 'danish' ); return false;"
+                    >Dansk (Danca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=german"
+                    onclick="ChangeLanguage( 'german' ); return false;"
+                    >Deutsch (Almanca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=english"
+                    onclick="ChangeLanguage( 'english' ); return false;"
+                    >English (İngilizce)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=spanish"
+                    onclick="ChangeLanguage( 'spanish' ); return false;"
+                    >Español (Kastilya İspanyolcası)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=latam"
+                    onclick="ChangeLanguage( 'latam' ); return false;"
+                    >Español - Latinoamérica (Latin Amerika İspanyolcası)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=greek"
+                    onclick="ChangeLanguage( 'greek' ); return false;"
+                    >Ελληνικά (Yunanca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=french"
+                    onclick="ChangeLanguage( 'french' ); return false;"
+                    >Français (Fransızca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=italian"
+                    onclick="ChangeLanguage( 'italian' ); return false;"
+                    >Italiano (İtalyanca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=hungarian"
+                    onclick="ChangeLanguage( 'hungarian' ); return false;"
+                    >Magyar (Macarca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=dutch"
+                    onclick="ChangeLanguage( 'dutch' ); return false;"
+                    >Nederlands (Felemenkçe)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=norwegian"
+                    onclick="ChangeLanguage( 'norwegian' ); return false;"
+                    >Norsk (Norveççe)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=polish"
+                    onclick="ChangeLanguage( 'polish' ); return false;"
+                    >Polski (Lehçe)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=portuguese"
+                    onclick="ChangeLanguage( 'portuguese' ); return false;"
+                    >Português (Portekizce - Portekiz)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=brazilian"
+                    onclick="ChangeLanguage( 'brazilian' ); return false;"
+                    >Português - Brasil (Brezilya Portekizcesi)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=romanian"
+                    onclick="ChangeLanguage( 'romanian' ); return false;"
+                    >Română (Rumence)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=russian"
+                    onclick="ChangeLanguage( 'russian' ); return false;"
+                    >Русский (Rusça)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=finnish"
+                    onclick="ChangeLanguage( 'finnish' ); return false;"
+                    >Suomi (Fince)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=swedish"
+                    onclick="ChangeLanguage( 'swedish' ); return false;"
+                    >Svenska (İsveççe)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=vietnamese"
+                    onclick="ChangeLanguage( 'vietnamese' ); return false;"
+                    >Tiếng Việt (Vietnamca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="?l=ukrainian"
+                    onclick="ChangeLanguage( 'ukrainian' ); return false;"
+                    >Українська (Ukraynaca)</a
+                  ><br />
+                  <a
+                    class="popup_menu_item tight"
+                    href="https://www.valvesoftware.com/en/contact?contact-person=Translation%20Team%20Feedback"
+                    target="_blank"
+                    >Bir çeviri sorunu bildirin</a
+                  ><br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="small_header"></header>
+    <div class="rest_profile">
+      <div class="rest_profile__top">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex">
+              <img
+                class="rest_profile__profile_image"
+                src="https://avatars.cloudflare.steamstatic.com/456252919eb1d2dfe33ed7cc55a72300b76dc807_full.jpg"
+              />
+              <div style="padding: 5px 25px">
+                <div class="d-flex align-items-end">
+                  <p style="font-size: 24px; font-weight: 300; color: white">
+                    SkinnyPenguin
+                  </p>
+                  <i class="fa-solid fa-caret-down fa-sm text-white ms-2"></i>
+                </div>
+                <p style="margin-top: 60px; color: #898989; font-size: 13px">
+                  Herhangi bir bilgi verilmedi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto" style="width: 268px">
+            <div class="d-flex align-items-center" style="color: white">
+              <p style="font-size: 24px; font-weight: 300" class="me-2">
+                Seviye
+              </p>
+              <div class="level_button mt-2">12</div>
+            </div>
+            <div class="xp_box d-flex align-items-center text-white mt-2">
+              <img
+                style="width: 54px; height: 54px"
+                src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/601340/5b56a89e23d99566b7954ff3c0af95f7cab7c286.png"
+                class="badge_icon small"
+              />
+              <div style="margin-left: 8px">
+                <p class="mb-1">Scifi Box</p>
+                <small>100 XP</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../assets/bootstrap-5.2.1/js/bootstrap.min.js"></script>
+    <script src="../assets/fontawesome-6.2.0/js/all.min.js"></script>
+    <script src="../assets/jquery/jquery.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script>
+      function laguages_show() {
+        $(".popup_block_new").toggle(0);
+      }
+    </script>
+  </body>
+</html>
