@@ -1,0 +1,366 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  overflow-x: hidden;
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000000;
+  background-color: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #434953;
+  border: 3px solid black;
+  border-radius: 999px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+}
+
+.large_header {
+  background-color: #171a21;
+  height: 104px;
+  width: 100%;
+  color: white;
+}
+
+.large_header .center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.large_header p {
+  padding: 0 8px;
+  font-size: 14px;
+  color: #b8b6b4;
+}
+
+.header_installsteam_btn_content {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.header_installsteam_btn_content div {
+  background-color: rgb(92 126 16);
+  padding: 3px 10px;
+  font-size: 11px;
+  color: #b8b6b4;
+}
+
+.header_installsteam_btn_content div p {
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+#global_action_menu {
+  position: relative;
+}
+
+.popup_block_new {
+  background-color: #171a21;
+  border: 1px solid #171a21;
+  box-shadow: 0 0 12px #000000;
+  padding: 14px;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 320px;
+}
+
+.popup_block_new a {
+  color: #b8b6b4;
+  text-decoration: none;
+  font-size: 14px;
+  height: 100px !important;
+}
+
+.rest_profile {
+  background-image: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1263950/9aea5f2f726e050d2df2f0eb531d90b497790c46.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.rest_profile__top {
+  padding: 30px;
+  width: 980px;
+  background: rgb(24 24 24 / 93%);
+  margin: 0 auto;
+}
+
+.rest_profile__profile_image {
+  border: 2px solid #53a4c4;
+  width: 164px;
+  height: 164px;
+}
+
+.level_button {
+  color: white;
+  border: 2px solid #c02942;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.xp_box {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.rest_profile_bottom {
+  padding: 15px;
+  padding-bottom: 90px;
+  width: 980px;
+  background: rgb(24 24 24 / 93%);
+  margin: 0 auto;
+}
+
+.rest_profile__screenshots {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.rest_profile__screenshots .main-text {
+  border-radius: 3px;
+  font-weight: 200;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(11 10 10);
+}
+
+.rest_profile__screenshots .photos {
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.rest_profile__right {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.level-div {
+  padding: 6px;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid #4e8ddb;
+  font-size: 18px;
+}
+
+.rest_profile__comments {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 38px;
+  line-height: 38px;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+
+.rest_profile__comments .main-text {
+  color: #969696;
+  font-size: 20px;
+}
+
+.comments {
+  margin-top: 15px;
+}
+
+.comment {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.comment:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.comment .profile_name {
+  color: white;
+  font-size: 14px;
+}
+
+.comment .date {
+  font-size: 11px;
+  color: #56707f;
+  margin-left: 4px;
+}
+
+.comment .message {
+  font-size: 13px;
+  color: #acb2b8;
+  word-wrap: break-word;
+  overflow-y: auto;
+  max-height: 400px;
+  line-height: 18px;
+}
+
+.comment .profile img {
+  border: 1px solid gray;
+}
+
+.rest_profile__left .border_bottom {
+  height: 2px;
+  margin-top: 14px;
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer {
+  padding-top: 30px;
+  background-color: black;
+}
+
+.footer_child {
+  width: 958px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.footer_child p {
+  line-height: 14px;
+  font-size: 12px;
+  margin-bottom: 15px;
+  display: block;
+  color: #8f98a0;
+}
+
+.valve_links {
+  height: 60px;
+  color: #8f98a0;
+  font-size: 14px;
+}
+
+.valve_links a {
+  color: #8f98a0;
+  font-size: 12px;
+  text-decoration: none;
+}
